@@ -18,6 +18,12 @@ def seperate_with_commas(number)
   text.reverse
 end
 
+# Takes user input. That was cool with python, so i add it on ruby either
+def input(text)
+  print(text)
+  gets.chomp
+end
+
 # Clears the terminal
 def clear
   Gem.win_platform? ? (system 'cls') : (system 'clear')
